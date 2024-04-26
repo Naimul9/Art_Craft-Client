@@ -28,7 +28,8 @@ const Navbar = () => {
     );
 
     return (
-        <div className="navbar bg-slate-200 w-full lg:max-w-screen-2xl mx-auto font-poppins">
+        <div className="navbar bg-white
+         w-full lg:max-w-screen-2xl mx-auto font-poppins">
             <div className="navbar-start rounded-2xl">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -64,9 +65,15 @@ const Navbar = () => {
                         )}
                     </div>
                 ) : (
-                    <Link to={'/login'}>
+                
+                  <div className="flex gap-2" >
+                      <Link to={'/login'}>
                         <button className="btn btn-sm">Login</button>
+                    </Link >
+                    <Link to={'/register'}>  <button className="btn btn-sm">Register</button>
                     </Link>
+                  </div>
+                  
                 )}
                 {user && (
                     <button onClick={handleLogOut} className="btn">Sign Out</button>
