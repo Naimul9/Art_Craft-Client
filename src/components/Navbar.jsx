@@ -20,9 +20,12 @@ const Navbar = () => {
     const navLinks = (
         <>
             <NavLink to={'/'}><li>Home</li></NavLink>
-            <NavLink to={'/updateProfile'}><li>Update Profile</li></NavLink>
+            <NavLink to={'/updateProfile'}><li>Art & Craft Item</li></NavLink>
             {user && (
-                <NavLink to={"/userprofile"}><li>About Us</li></NavLink>
+               <div className="lg:flex gap-3 lg:-ml-4">
+                 <NavLink to={"/addCraft"}><li>Add Craft Item</li></NavLink>
+                <NavLink to={"/myArt&craft"}><li>My Art&Craft List</li></NavLink>
+               </div>
             )}
         </>
     );
@@ -39,7 +42,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost font-bold text-2xl">Doaa Real Estate</a>
+                <a className="btn btn-ghost font-bold lg:text-2xl text-xl">The Art Gallery</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal flex gap-10 px-1 font-semibold text-[18px]">
