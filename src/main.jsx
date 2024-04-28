@@ -11,6 +11,7 @@ import Error from './components/Error';
 import AuthProvider from './Providers/AuthProvider';
 import Login from './components/Login';
 import Register from './components/Register';
+import AddProduct from './components/AddProduct';
 
 
 
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         path: "/register",
         element: <Register></Register>
       },
+      {
+        path:"/addCraft",
+        element:<AddProduct></AddProduct>
+      }
     ]
   },
 ]);

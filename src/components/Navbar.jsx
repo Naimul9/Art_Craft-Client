@@ -97,7 +97,7 @@ const handleToogle = e=>{
                   
                 )}
                 {user && (
-                    <button onClick={handleLogOut} className="btn">Sign Out</button>
+                    <button onClick={handleLogOut} className="btn btn-sm">Sign Out</button>
                 )}
 
 {/* dark mode */}
