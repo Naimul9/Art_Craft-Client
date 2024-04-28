@@ -42,7 +42,7 @@ const handleToogle = e=>{
             {user && (
                <div className="lg:flex gap-3 lg:-ml-4">
                  <NavLink to={"/addCraft"}><li>Add Craft Item</li></NavLink>
-                <NavLink to={"/myArt&craft"}><li>My Art&Craft List</li></NavLink>
+                <NavLink to={"/art_craft"}><li>My Art&Craft List</li></NavLink>
                </div>
             )}
         </>

@@ -12,6 +12,9 @@ import AuthProvider from './Providers/AuthProvider';
 import Login from './components/Login';
 import Register from './components/Register';
 import AddProduct from './components/AddProduct';
+import PrivateRoutes from './routes/PrivateRoute';
+import MyArt_Craft from './components/MyArt_Craft';
+
 
 
 
@@ -35,7 +38,11 @@ const router = createBrowserRouter([
       },
       {
         path:"/addCraft",
-        element:<AddProduct></AddProduct>
+        element: <PrivateRoutes><AddProduct></AddProduct></PrivateRoutes>
+      }, 
+      {
+        path:"/art_craft",
+        element: <PrivateRoutes><MyArt_Craft></MyArt_Craft> </PrivateRoutes>
       }
     ]
   },
