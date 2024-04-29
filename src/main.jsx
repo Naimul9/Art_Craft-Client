@@ -15,6 +15,7 @@ import AddProduct from './components/AddProduct';
 import PrivateRoutes from './routes/PrivateRoute';
 import MyArt_Craft from './components/MyArt_Craft';
 import Art_Craft from './components/Art_Craft';
+import ViewDetail from './components/ViewDetail';
 
 
 
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
         path : '/all_item',
         element: <Art_Craft></Art_Craft>,
         loader : () => fetch('http://localhost:5000/craft')
+      },
+      {
+        path: '/view_detail',
+        element: <PrivateRoutes><ViewDetail></ViewDetail></PrivateRoutes>
       }
     ]
   },

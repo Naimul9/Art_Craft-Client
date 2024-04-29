@@ -1,5 +1,5 @@
 
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
 const Art_Craft = () => {
   const data = useLoaderData();
@@ -42,7 +42,7 @@ const Art_Craft = () => {
               </td>
               <td>{item.subcategory_Name}</td>
               <th>
-                <button className="btn btn-ghost btn-sm"> View Details</button>
+                <Link to={'/view_detail'}><button className="btn btn-ghost btn-sm"> View Details</button></Link>
               </th>
             </tr>
           ))}
