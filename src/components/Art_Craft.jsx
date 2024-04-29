@@ -5,7 +5,7 @@ const Art_Craft = () => {
   const data = useLoaderData();
 
   return (
-    <div className="overflow-x-auto">
+    <div className="lg:overflow-x-auto w-2/4">
       <table className="table">
         {/* Table Head */}
         <thead>
@@ -24,7 +24,7 @@ const Art_Craft = () => {
             <tr key={index}>
               <th></th>
               <td>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center lg:gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle w-12 h-12">
                       <img src={item.image} alt="Avatar" />

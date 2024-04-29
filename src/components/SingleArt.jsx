@@ -21,7 +21,7 @@ const {
                     <div>
                         <article className="flex flex-col ">
 
-                            <img alt="" className="object-fill  h-[230px] w-[400px] rounded-2xl" src={image} />
+                            <img alt="" className="object-fill  h-[300px] w-[400px] rounded-2xl" src={image} />
 
                           
                             <div className="flex flex-col flex-1 mt-5">

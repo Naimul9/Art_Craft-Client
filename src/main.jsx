@@ -16,6 +16,7 @@ import PrivateRoutes from './routes/PrivateRoute';
 import MyArt_Craft from './components/MyArt_Craft';
 import Art_Craft from './components/Art_Craft';
 import ViewDetail from './components/ViewDetail';
+import UpdateCraft from './components/UpdateCraft';
 
 
 
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: '/view_detail',
         element: <PrivateRoutes><ViewDetail></ViewDetail></PrivateRoutes>
+      },
+      {
+        path:'/updateCraft',
+        element: <UpdateCraft></UpdateCraft>
       }
     ]
   },
