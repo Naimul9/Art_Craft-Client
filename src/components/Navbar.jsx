@@ -38,7 +38,7 @@ const handleToogle = e=>{
     const navLinks = (
         <>
             <NavLink to={'/'}><li>Home</li></NavLink>
-            <NavLink to={'/updateProfile'}><li>Art & Craft Item</li></NavLink>
+            <NavLink to={'/all_item'}><li>Art & Craft Item</li></NavLink>
             {user && (
                <div className="lg:flex gap-3 lg:-ml-4">
                  <NavLink to={"/addCraft"}><li>Add Craft Item</li></NavLink>
