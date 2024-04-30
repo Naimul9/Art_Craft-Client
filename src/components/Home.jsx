@@ -23,7 +23,7 @@ const Home = () => {
         </div>
 
         <section >
-            <h1 className= "font-semibold text-4xl text-white text-center bg-black py-5">
+            <h1 className= " mt-10 font-semibold text-4xl text-white text-center bg-black py-5">
             Art & Craft Categories Section
             </h1>
 
