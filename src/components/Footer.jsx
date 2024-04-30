@@ -4,6 +4,7 @@ const Footer = () => {
     return (
         <footer className="footer footer-center p-10 bg-indigo-200 text-black
          rounded">
+          <h1 className="text-4xl font-bold">The Art & Craft Gallery</h1>
   <nav className="grid grid-flow-col gap-4">
     <a className="link link-hover">About us</a>
     <a className="link link-hover">Contact</a>
@@ -18,7 +19,7 @@ const Footer = () => {
     </div>
   </nav> 
   <aside>
-    <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+    <p>Copyright © 2024 - All right reserved by Art & Craft Gallery</p>
   </aside>
 </footer>
     );

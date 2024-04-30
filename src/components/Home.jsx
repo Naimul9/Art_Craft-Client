@@ -1,7 +1,10 @@
 import { useLoaderData } from "react-router-dom";
 import Slider from "./Slider";
 import SingleArt from "./SingleArt";
-import Art_Craft from "./Art_Craft";
+
+import Gallery from "./Gallery";
+import Review from "./Review";
+
 
 
 const Home = () => {
@@ -36,58 +39,56 @@ const Home = () => {
 				
 			</div>
 		</div>
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-500 text-gray-100">
-			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-400">
-				
-			</div>
-			<div className="flex flex-col justify-center align-middle">
-				<p className="text-3xl font-semibold leading-none">7500</p>
-				<p className="capitalize">New customers</p>
-			</div>
-		</div>
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-500 text-gray-100">
-			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-400">
+		<div className="text-center p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-500 text-gray-100">
 			
-			</div>
 			<div className="flex flex-col justify-center align-middle">
-				<p className="text-3xl font-semibold leading-none">172%</p>
-				<p className="capitalize">Growth</p>
-			</div>
-		</div>
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-500 text-gray-100">
-			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-400">
+				<p className="text-3xl font-semibold leading-none">Sculpture and <br />Modeling</p>
 				
 			</div>
-			<div className="flex flex-col justify-center align-middle">
-				<p className="text-3xl font-semibold leading-none">17%</p>
-				<p className="capitalize">Bounce rate</p>
-			</div>
 		</div>
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-500 text-gray-100">
-			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-400">
+		<div className="text-center p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-500 text-gray-100">
+			
+			<div className="flex flex-col justify-center align-middle">
+				<p className="text-3xl font-semibold leading-none">Textile <br /> Arts</p>
 				
 			</div>
-			<div className="flex flex-col justify-center align-middle">
-				<p className="text-3xl font-semibold leading-none">17%</p>
-				<p className="capitalize">Bounce rate</p>
-			</div>
 		</div>
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-500 text-gray-100">
-			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-400">
+		<div className="text-center p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-500 text-gray-100">
+			
+			<div className="flex flex-col justify-center align-middle">
+				<p className="text-3xl font-semibold leading-none">Paper Crafts <br /> & Glass Art
+</p>
 				
 			</div>
+		</div>
+		<div className="text-center p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-500 text-gray-100">
+			
 			<div className="flex flex-col justify-center align-middle">
-				<p className="text-3xl font-semibold leading-none">17%</p>
-				<p className="capitalize">Bounce rate</p>
+				<p className="text-3xl font-semibold leading-none">Ceramics and <br /> Pottery
+</p>
+				
 			</div>
 		</div>
+		<div className="text-center p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-500 text-gray-100">
+			
+			<div className="flex flex-col justify-center align-middle">
+				<p className="text-3xl font-semibold leading-none">Jute & <br /> Wooden Crafts</p>
+				
+			</div>
+		</div>
+		
+	
 	</div>
 </section>
        
         </section>
+  
+      {/* Gallery section */}
+<Gallery></Gallery>
 
+{/* Review */}
       
-
+<Review></Review>
             </div>
 
         </div>

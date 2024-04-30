@@ -80,7 +80,7 @@ const MyArt_Craft = () => {
             <div className="flex flex-wrap justify-center gap-4">
                 {filteredItems.map(item => (
                     <div key={item._id} className="card">
-                        <img className="card-image" src={item.image} alt={item.name} />
+                        <img className="card-image lg:h-[600px]" src={item.image} alt={item.name} />
                         <div className="card-content">
                             <p className="card-title">{item.name}</p>
                             <p className="card-info">Price: {item.price}</p>

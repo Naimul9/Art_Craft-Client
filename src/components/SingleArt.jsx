@@ -16,19 +16,19 @@ const {
 
     return (
         <div  >
-        <section className="h-[750px] mx-auto lg:w-[600px] border rounded-xl mt-8 relative bg-slate-100">
+        <section className="lg:h-[750px] h-[800px] mx-auto lg:w-[600px] border rounded-xl mt-8 relative bg-slate-100">
                 <div className="container p-6 mx-auto ">
 
                     <div>
                         <article className="flex flex-col ">
 
-                            <img alt="" className="object-fill  h-[400px] w-[550px] rounded-2xl" src={image} />
+                            <img alt="" className="object-fill h-[400px]  w-[550px] rounded-2xl" src={image} />
 
                           
                             <div className="flex flex-col flex-1 mt-8">
 
                              
-                                    <p className="text-4xl text-center font-bold h-24">{name}</p>
+                                    <p className="text-4xl text-center font-bold lg:h-24 h-32">{name}</p>
                            
                                 <p className="text-3xl ">Category: {sub_category}</p>
                            

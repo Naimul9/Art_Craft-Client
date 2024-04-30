@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       {
         path : '/',
         element: <Home></Home>,
-        loader : () => fetch('http://localhost:5000/craft')
+        loader : () => fetch('https://assignment-10-server-one-puce.vercel.app/craft')
       },
       {
         path: "/login",
@@ -51,17 +51,17 @@ const router = createBrowserRouter([
       {
         path : '/all_item',
         element: <Art_Craft></Art_Craft>,
-        loader : () => fetch('http://localhost:5000/craft')
+        loader : () => fetch('https://assignment-10-server-one-puce.vercel.app/craft')
       },
       {
         path: '/view_detail/:id',
         element: <PrivateRoutes><ViewDetail></ViewDetail></PrivateRoutes>,
-        loader : () => fetch('http://localhost:5000/craft')
+        loader : () => fetch('https://assignment-10-server-one-puce.vercel.app/craft')
       },
       {
         path:'/updateCraft/:id',
         element: <UpdateCraft></UpdateCraft>,
-        loader: ({params})=> fetch(`http://localhost:5000/craft/${params.id}`)
+        loader: ({params})=> fetch(`https://assignment-10-server-one-puce.vercel.app/craft/${params.id}`)
       }
     ]
   },

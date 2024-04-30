@@ -22,7 +22,7 @@ const Art_Craft = () => {
           
           {data.map((item, index) => (
             <tr key={index}>
-              <th></th>
+              
               <td>
                 <div className="flex items-center lg:gap-3">
                   <div className="avatar">
