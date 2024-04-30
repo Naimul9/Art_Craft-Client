@@ -16,25 +16,45 @@ const ViewDetail = () => {
                 setItemData(data);
             } catch (error) {
                 console.error('Error fetching item details:', error);
-                // Handle error state or display error message
+                
             }
         };
 
-        fetchData(); // Call the fetchData function when the component mounts
-    }, [id]); // Re-run the effect when 'id' changes (URL parameter)
+        fetchData(); 
+    }, [id]);
 
     if (!itemData) {
-        return <div>Loading...</div>; // Render loading indicator while fetching data
+        return <div>Loading...</div>; 
     }
 
-    // Render detailed information of the item once data is fetched
+  
     return (
-        <div>
-            <h1>Item Details - {id}</h1>
-            <p>Name: {itemData.name}</p>
-            <p>Category: {itemData.sub_category}</p>
-            {/* Display other item details based on 'itemData' */}
-        </div>
+        <section className="p-4 lg:p-8 dark:bg-gray-100 dark:text-gray-800">
+	<div className="container mx-auto space-y-12">
+		<div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+			<img src={itemData.image} alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+			<div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-50">
+				<span className="text-xs uppercase dark:text-gray-600">{itemData.sub_category}</span>
+				<h3 className="text-3xl font-bold">{itemData.name}</h3>
+				<p className="my-4 dark:text-gray-600">{itemData.short_description}</p>
+				<div className=' lg:flex gap-36 dark:text-gray-600'>
+                    <p>Price: {itemData.price}</p>
+                    <p>Rating: {itemData.rating}</p>
+                </div>
+				<div className=' lg:flex gap-20 dark:text-gray-600 mt-5'>
+                    <p>Customization: {itemData.customization}</p>
+                    <p>Processing Time: {itemData.processing_time}</p>
+                </div>
+				<div className=' lg:flex gap-20 dark:text-gray-600 mt-5'>
+                    <p>User Name: {itemData.user_name}</p>
+                    <p>User Email: {itemData.user_email}</p>
+                </div>
+                
+			</div>
+		</div>
+		
+	</div>
+</section>
     );
 };
 
