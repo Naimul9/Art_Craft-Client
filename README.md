@@ -11,6 +11,6 @@ Visit the live site: https://assignment-9-a1096.web.app/
 - **Responsive Design:** Enjoy a seamless experience across various devices, including desktops, tablets, and smartphones.
 
 # Used Node Packages
--React-simple-typewriter
--. React Awesome reveal
+- React-simple-typewriter
+- React Awesome reveal
 
