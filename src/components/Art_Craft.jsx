@@ -31,7 +31,7 @@ const Art_Craft = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="font-bold">{item.item_name}</div>
+                    <div className="font-bold">{item.name}</div>
                     <div className="text-sm opacity-50">{item.user_email}</div>
                   </div>
                 </div>

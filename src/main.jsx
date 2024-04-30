@@ -58,8 +58,9 @@ const router = createBrowserRouter([
         element: <PrivateRoutes><ViewDetail></ViewDetail></PrivateRoutes>
       },
       {
-        path:'/updateCraft',
-        element: <UpdateCraft></UpdateCraft>
+        path:'/updateCraft/:id',
+        element: <UpdateCraft></UpdateCraft>,
+        loader: ({params})=> fetch(`http://localhost:5000/craft/${params.id}`)
       }
     ]
   },

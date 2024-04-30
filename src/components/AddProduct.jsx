@@ -92,15 +92,24 @@ const AddProduct = () => {
                             type="text"
                             placeholder="Select Sub Category"
                         >
-                            <option value="Test" selected>
-                                Test
-                            </option>
-                            <option value="Test2" selected>
-                                Test2
-                            </option>
-                            <option value="Test3" selected>
-                                Test3
-                            </option>
+                           <option value="Landscape Painting" selected>
+                        Landscape Painting
+                        </option>
+                        <option value="Portrait Drawing" selected>
+                        Portrait Drawing
+                        </option>
+                        <option value="Watercolor Painting" selected>
+                        Watercolor Painting
+                        </option>
+                        <option value="Oil Painting" selected>
+                        Oil Painting
+                        </option>
+                        <option value="Charcoal Sketching" selected>
+                        Charcoal Sketching
+                        </option>
+                        <option value="Cartoon Drawing" selected>
+                        Cartoon Drawing
+                        </option>
                         </select>
 
                         <label
