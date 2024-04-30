@@ -1,8 +1,16 @@
-# React + Vite
+# The Art & Craft Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visit the live site: https://assignment-9-a1096.web.app/
 
-Currently, two official plugins are available:
+## Features 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home:** Browse a wide selection of ART & CRAFTS.
+- **Gallery:** You can see a large number of collection of ARTS and CRAFTS available for Sale.
+- **Login:** Login page has Email password ,Google and Github Login option ,,,Once you logged in you can acces some private routes.
+- **Update Profile:** After login u can update your added Craft Information.
+- **Responsive Design:** Enjoy a seamless experience across various devices, including desktops, tablets, and smartphones.
+
+# Used Node Packages
+-React-simple-typewriter
+-. React Awesome reveal
+
