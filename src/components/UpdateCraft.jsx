@@ -24,7 +24,7 @@ const {
         const sub_category = e.target.sub_category.value
         const customization = e.target.custom.value
         const price = e.target.price.value
-        const stock_status = e.target.stock.value
+        const stockStatus = e.target.stock.value
         const user_email = e.target.user_email.value
         const image = e.target.image.value
         const short_description = e.target.short_description.value
@@ -36,7 +36,7 @@ const {
 
         const UpdatedInfo = {
             name, 
-            sub_category, customization, price, stock_status, user_email, image, short_description, rating, processing_time, user_name,
+            sub_category, customization, price, stockStatus, user_email, image, short_description, rating, processing_time, user_name,
         }
 
         console.log(UpdatedInfo)

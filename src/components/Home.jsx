@@ -14,7 +14,7 @@ const Home = () => {
             <Slider></Slider>
 
             <div className="mt-10">
-               <h1 className="font-semibold text-4xl text-white text-center bg-black py-5 "> CRAFT ITEMS</h1>
+               <h1 className="font-semibold text-4xl text-white text-center bg-black py-5 ">ART & CRAFT ITEMS</h1>
 
                <div className='grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2 gap-1 '>
             {

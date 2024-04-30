@@ -5,7 +5,7 @@ const Art_Craft = () => {
   const data = useLoaderData();
 
   return (
-    <div className="lg:overflow-x-auto w-2/4">
+    <div className="overflow-x-auto ">
       <table className="table">
         {/* Table Head */}
         <thead>
@@ -32,7 +32,7 @@ const Art_Craft = () => {
                   </div>
                   <div>
                     <div className="font-bold">{item.name}</div>
-                    <div className="text-sm opacity-50">{item.user_email}</div>
+                    <div className="text-sm opacity-50">{item.stockStatus}</div>
                   </div>
                 </div>
               </td>
@@ -40,9 +40,9 @@ const Art_Craft = () => {
                 
                 <span className="badge badge-ghost badge-md">{item.price}</span>
               </td>
-              <td>{item.subcategory_Name}</td>
+              <td>{item.sub_category}</td>
               <th>
-                <Link to={'/view_detail'}><button className="btn btn-ghost btn-sm"> View Details</button></Link>
+                <Link to={`/view_detail/${item._id}`}><button className="btn btn-ghost btn-sm"> View Details</button></Link>
               </th>
             </tr>
           ))}

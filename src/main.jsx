@@ -54,8 +54,9 @@ const router = createBrowserRouter([
         loader : () => fetch('http://localhost:5000/craft')
       },
       {
-        path: '/view_detail',
-        element: <PrivateRoutes><ViewDetail></ViewDetail></PrivateRoutes>
+        path: '/view_detail/:id',
+        element: <PrivateRoutes><ViewDetail></ViewDetail></PrivateRoutes>,
+        loader : () => fetch('http://localhost:5000/craft')
       },
       {
         path:'/updateCraft/:id',

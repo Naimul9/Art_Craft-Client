@@ -12,7 +12,7 @@ const {
     customization, 
     processing_time, 
     stockStatus, user_name, 
-    user_email} = item
+    user_email, _id} = item
 
     return (
         <div  >
@@ -37,7 +37,7 @@ const {
     <p>Rating : {rating}</p>
 </div>
 
-<Link to={'/view_detail'}><button className="btn mt-8 bg-slate-400 btn-block">View Details</button></Link>
+<Link to={`/view_detail/${_id}`}><button className="btn mt-8 bg-slate-400 btn-block">View Details</button></Link>
                                
                                
                             </div>
