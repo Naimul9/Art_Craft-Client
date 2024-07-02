@@ -1,6 +1,6 @@
 # The Art & Craft Gallery
 
-**The Art & Craft Gallery is a based on antique art and craft
+**The Art & Craft Gallery is a based on antique art and craft**
 
 ## Important Links
 
