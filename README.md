@@ -1,6 +1,6 @@
 # The Art & Craft Gallery
 
-Visit the live site: https://assignment-10-58564.web.app/
+[Live-Link](https://assignment-10-58564.web.app)
 
 ## Features 
 
