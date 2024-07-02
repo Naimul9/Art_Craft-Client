@@ -39,8 +39,10 @@
 <a name="learning-next"></a>
 
 ## Steps To Run in Local
-- First clone the repo in your local computer using git clone or download the zip file
-- Then set the firebase and mongodb credentials to run the project
+- First clone the repo in your local computer using git clone or download the zip file.
+- Then install all the dependencies using npm i.
+- Then set the firebase and mongodb credentials to run the project.
+
 
 
 
