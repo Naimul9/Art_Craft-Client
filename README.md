@@ -18,7 +18,7 @@
 - **Update Profile:** After login u can update your added Craft Information.
 - **Responsive Design:** Enjoy a seamless experience across various devices, including desktops, tablets, and smartphones.
 
-# Used Node Packages
+# Used Technologies
 - React-simple-typewriter
 - React Awesome reveal
 
